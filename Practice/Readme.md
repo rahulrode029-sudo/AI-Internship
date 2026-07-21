@@ -63,10 +63,10 @@ Through these programs, I practiced:
 
 
 ## Internship Progress
-+------------------------------------------------------------+
-| Date         | Task                   | File               |
-|--------------|------------------------|--------------------|
-| 18 July 2026 | Employee Salary System | employee_salary.py |
-| 21 July 2026 | Calculator Program     | calculator.py      |
-+------------------------------------------------------------+
-
+Ai-Internship
+│
+└── Practice
+   │
+    ├── employee_salary.py
+    ├── calculator.py
+    └── README.md
