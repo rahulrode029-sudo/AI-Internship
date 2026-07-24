@@ -5,14 +5,18 @@ def add_employee():
     emp = {}
     emp["ID"] = input("enter employee ID :")
     emp["name"] = input("enter employee name :")
-    emp["sallary"] = float(input("enter your sallary"))
+    emp["salary"] = float(input("enter your salary"))
+    
+    emp["total_salary"] = None
     
     employees.append(emp)
     
 def calculate_salary():
-    for epm in employees:
-        hr = epm["sallary"]*0.20
-        da = epm["sallary"]*0.10
+    for emp in employees:
+        hra = emp["salary"]*0.20
+        total = emp["salary"] + hra
+        
+        emp["total_salary"] = total    
 
 def display_employees():
 
@@ -25,8 +29,8 @@ def display_employees():
 
             print("Employee ID:", emp["ID"])
             print("Name:", emp["name"])
-            print("Salary:", emp["sallary"])
-            #print("Total Salary:", emp["total sallary"])
+            print("Salary:", emp["salary"])
+            print("Total Salary:", emp["total_salary"])
 
 
 while True:
@@ -35,7 +39,7 @@ while True:
     print("1. add employee")
     print("2. calculate salary")
     print("3. display employees")
-    print("4. exit")
+    print("enter any number for exit")
 
     choice = input("enter choice: ")
 
