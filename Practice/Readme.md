@@ -70,3 +70,49 @@ Ai-Internship
     ├── employee_salary.py
     ├── calculator.py
     └── README.md
+
+
+
+## Day 6 regex cheat sheet
+
+# Any digit
+\d
+
+# Any non-digit
+\D
+
+# Any word character
+\w
+
+# Any non-word character
+\W
+
+# Any whitespace
+\s
+
+# Any non-whitespace
+\S
+
+# Starts with
+^
+
+# Ends with
+$
+
+# Zero or more
+*
+
+# One or more
++
+
+# Optional
+?
+
+# Exactly n times
+{n}
+
+# Range
+{2,5}
+
+# Word boundary
+\b
