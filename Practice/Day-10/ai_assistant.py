@@ -1,5 +1,3 @@
-# ai_assistant.py
-
 from transformers import pipeline
 
 
@@ -10,9 +8,7 @@ sentiment_model = pipeline(
 )
 
 
-print("=" * 50)
-print("        AI Sentiment Assistant")
-print("=" * 50)
+print("AI Sentiment Assistant")
 
 
 while True:

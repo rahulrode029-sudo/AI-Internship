@@ -1,5 +1,4 @@
 #Que-Ans Model
-
 from transformers import pipeline
 
 qa = pipeline(
