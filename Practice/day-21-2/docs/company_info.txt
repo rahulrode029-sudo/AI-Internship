@@ -1,0 +1,34 @@
+About XYZ Company
+
+XYZ Company is a mid-sized technology company founded in 2010.
+The company is headquartered in Pune, India.
+
+The company specializes in cloud-based software solutions,
+artificial intelligence, data analytics, and enterprise applications.
+
+CEO:
+Rahul Sharma
+
+CTO:
+Priya Mehta
+
+HR Head:
+Amit Patel
+
+Departments:
+1. Artificial Intelligence
+2. Data Science
+3. Software Development
+4. Human Resources
+5. Sales and Marketing
+
+The company has approximately 250 employees.
+
+Working hours:
+Monday to Friday, 9:30 AM to 6:30 PM.
+
+Leave Policy:
+Employees receive 18 paid leaves per year.
+
+The company provides health insurance and professional
+development opportunities to its employees.
