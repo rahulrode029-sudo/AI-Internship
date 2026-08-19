@@ -1,0 +1,17 @@
+2026-08-20 00:31:22,565 - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2026-08-20 00:34:34,021 - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2026-08-20 00:40:53,683 - INFO - Document upload started: handbook.pdf
+2026-08-20 00:41:48,097 - INFO - Question received: what is content in handbook
+2026-08-20 00:41:48,097 - INFO - Question processed successfully
+2026-08-20 00:48:35,878 - INFO - Document upload started: Example_file.txt
+2026-08-20 00:48:35,928 - INFO - Document processed successfully: 17 chunks
+2026-08-20 00:49:04,202 - INFO - Question received: what is content in this file?
+2026-08-20 00:49:04,219 - INFO - Question processed successfully

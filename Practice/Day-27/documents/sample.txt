@@ -1,0 +1,19 @@
+Company AI Policy
+
+Artificial Intelligence can be used to improve productivity,
+customer support, document analysis, and business decision making.
+
+Employees must protect confidential company information
+when using AI systems.
+
+Sensitive customer information must not be entered into
+public AI systems without proper authorization.
+
+AI-generated results should be reviewed by employees before
+important business decisions are made.
+
+The company encourages responsible AI development,
+human oversight, data privacy, security, and transparency.
+
+Employees working on AI projects should follow the approved
+development process and use Git for source code collaboration.
