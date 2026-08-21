@@ -5,3 +5,4 @@ pydantic
 scikit-learn
 pytest
 httpx
+python-multipart

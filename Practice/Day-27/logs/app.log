@@ -15,3 +15,17 @@ pip install python-multipart
 2026-08-20 00:48:35,928 - INFO - Document processed successfully: 17 chunks
 2026-08-20 00:49:04,202 - INFO - Question received: what is content in this file?
 2026-08-20 00:49:04,219 - INFO - Question processed successfully
+2026-08-20 19:31:33,427 - INFO - Document upload started: Example_file.txt
+2026-08-20 19:31:33,488 - INFO - Document processed successfully: 17 chunks
+2026-08-20 19:32:03,265 - INFO - Question received: what content this file have?
+2026-08-20 19:32:03,273 - INFO - Question processed successfully
+2026-08-21 19:19:35,827 - INFO - Document upload started: Example_file.txt
+2026-08-21 19:19:35,923 - INFO - Document processed successfully: 17 chunks
+2026-08-21 19:22:37,761 - INFO - Question received: what is the content in this file?
+2026-08-21 19:22:37,770 - INFO - Question processed successfully
+2026-08-21 19:27:22,166 - INFO - Document upload started: Example_file.txt
+2026-08-21 19:27:22,247 - INFO - Document processed successfully: 17 chunks
+2026-08-21 19:28:08,144 - INFO - Question received: what is deep learning?
+2026-08-21 19:28:08,144 - INFO - Question processed successfully
+2026-08-21 19:29:01,450 - INFO - Question received: what was the content in the file?
+2026-08-21 19:29:01,461 - INFO - Question processed successfully
