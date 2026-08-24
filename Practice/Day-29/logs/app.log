@@ -1,0 +1,40 @@
+2026-08-22 08:30:17,021 - INFO - Document upload started: Example_file.txt
+2026-08-22 08:30:17,060 - INFO - Document processed successfully: 17 chunks
+2026-08-22 08:30:30,444 - INFO - Retrieved uploaded documents: 1
+2026-08-22 08:35:58,130 - INFO - Document upload started: Example_file.txt
+2026-08-22 08:35:58,158 - INFO - Document processed successfully: 17 chunks
+2026-08-22 18:55:05,361 - INFO - Document upload started: Example_file.txt
+2026-08-22 18:55:05,425 - INFO - Document processed successfully: 17 chunks
+2026-08-22 20:22:32,977 - INFO - Document upload started: Summarization.docx
+2026-08-22 20:22:33,137 - INFO - Document processed successfully: 11 chunks
+2026-08-22 20:23:33,734 - INFO - Question received: what is content in this file
+2026-08-22 20:24:03,921 - INFO - Document upload started: Example_file.txt
+2026-08-22 20:24:03,984 - INFO - Document processed successfully: 17 chunks
+2026-08-22 20:24:10,949 - INFO - Question received: what is content in this file
+2026-08-22 20:26:34,529 - INFO - Question received: what is content in this file?
+2026-08-22 20:28:15,473 - INFO - Document upload started: Example_file.txt
+2026-08-22 20:28:15,517 - INFO - Document processed successfully: 17 chunks
+2026-08-22 20:28:49,254 - INFO - Question received: what is file content?
+2026-08-24 01:10:53,907 - INFO - Document upload started: Summarization.docx
+2026-08-24 01:10:54,021 - INFO - Document processed successfully: 11 chunks
+2026-08-24 01:11:47,221 - INFO - Question received: what is in the pdf ?
+2026-08-24 01:15:18,912 - INFO - Document upload started: Summarization.docx
+2026-08-24 01:15:18,968 - INFO - Document processed successfully: 11 chunks
+2026-08-24 01:16:51,022 - INFO - Question received: what is in this file ?
+2026-08-24 01:20:57,702 - INFO - Document upload started: Summarization.docx
+2026-08-24 01:20:57,761 - INFO - Document processed successfully: 11 chunks
+2026-08-24 01:21:43,771 - INFO - Question received: what is i this file?
+2026-08-24 01:27:04,068 - INFO - Document upload started: Summarization.docx
+2026-08-24 01:27:04,122 - INFO - Document processed successfully: 11 chunks
+2026-08-24 01:27:50,708 - INFO - Question received: what is in this file
+2026-08-24 01:31:31,384 - INFO - Document upload started: Summarization.docx
+2026-08-24 01:31:31,437 - INFO - Document processed successfully: 11 chunks
+2026-08-24 01:32:18,417 - INFO - Question received: what i have to summarize?
+2026-08-24 01:37:37,637 - INFO - Document upload started: Summarization.docx
+2026-08-24 01:37:37,690 - INFO - Document processed successfully: 11 chunks
+2026-08-24 01:38:29,455 - INFO - RUNNING CURRENT ASK FUNCTION
+2026-08-24 01:38:29,455 - INFO - Question received: what is in this file?
+2026-08-24 01:39:06,126 - INFO - Document upload started: Summarization.docx
+2026-08-24 01:39:06,184 - INFO - Document processed successfully: 11 chunks
+2026-08-24 01:39:10,417 - INFO - RUNNING CURRENT ASK FUNCTION
+2026-08-24 01:39:10,417 - INFO - Question received: what is in this file?
