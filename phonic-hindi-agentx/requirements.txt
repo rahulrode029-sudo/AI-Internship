@@ -1,0 +1,4 @@
+Flask
+Flask-Sock
+python-dotenv
+phonic
