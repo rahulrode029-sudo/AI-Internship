@@ -1,0 +1,485 @@
+AI, MACHINE LEARNING AND DEEP LEARNING
+
+1. ARTIFICIAL INTELLIGENCE (AI)
+
+Artificial Intelligence (AI) is a branch of computer science that focuses on creating machines and software that can perform tasks that normally require human intelligence.
+
+AI systems can perform tasks such as:
+
+* Understanding human language
+* Recognizing images and objects
+* Making decisions
+* Solving problems
+* Learning from data
+* Generating text, images, audio, and code
+
+Examples of AI:
+
+* ChatGPT
+* Google Gemini
+* Voice assistants
+* Recommendation systems
+* Self-driving technology
+* AI chatbots
+* Face recognition
+
+Main areas of AI:
+
+* Machine Learning
+* Deep Learning
+* Natural Language Processing (NLP)
+* Computer Vision
+* Robotics
+* Expert Systems
+* Generative AI
+
+2. MACHINE LEARNING (ML)
+
+Machine Learning is a subset of Artificial Intelligence. It allows computers to learn patterns from data and make predictions or decisions without being explicitly programmed for every situation.
+
+Example:
+
+If we provide a machine learning model with information about houses such as:
+
+* Area
+* Number of bedrooms
+* Location
+* Age of the house
+* Price
+
+The model can learn patterns from this data and predict the price of a new house.
+
+Types of Machine Learning:
+
+A. SUPERVISED LEARNING
+
+In supervised learning, the model learns from labeled data.
+
+Example:
+Input:
+House area, bedrooms, location
+
+Output:
+House price
+
+Common supervised learning algorithms:
+
+* Linear Regression
+* Logistic Regression
+* Decision Tree
+* Random Forest
+* Support Vector Machine (SVM)
+* K-Nearest Neighbors (KNN)
+* XGBoost
+
+Applications:
+
+* House price prediction
+* Spam detection
+* Disease prediction
+* Customer churn prediction
+* Fraud detection
+
+B. UNSUPERVISED LEARNING
+
+In unsupervised learning, the model works with data that does not have predefined labels.
+
+The model tries to discover patterns or groups in the data.
+
+Common algorithms:
+
+* K-Means Clustering
+* Hierarchical Clustering
+* DBSCAN
+* PCA
+
+Applications:
+
+* Customer segmentation
+* Market analysis
+* Anomaly detection
+* Data exploration
+
+C. REINFORCEMENT LEARNING
+
+Reinforcement learning is a type of machine learning where an agent learns by interacting with an environment.
+
+The agent receives:
+
+* Rewards for good actions
+* Penalties for bad actions
+
+Examples:
+
+* Game-playing AI
+* Robot control
+* Autonomous systems
+* Resource optimization
+
+3. DEEP LEARNING (DL)
+
+Deep Learning is a subset of Machine Learning that uses artificial neural networks with multiple layers to learn complex patterns from large amounts of data.
+
+Deep Learning is especially useful for:
+
+* Images
+* Video
+* Audio
+* Natural language
+* Complex prediction tasks
+
+Examples:
+
+* Face recognition
+* Speech recognition
+* Image classification
+* Machine translation
+* Chatbots
+* Generative AI
+
+4. NEURAL NETWORK
+
+A neural network is a machine learning model inspired by the structure of the human brain.
+
+A basic neural network contains:
+
+Input Layer
+|
+Hidden Layer(s)
+|
+Output Layer
+
+Input Layer:
+Receives the input data.
+
+Hidden Layers:
+Process the information and learn patterns.
+
+Output Layer:
+Produces the final prediction or result.
+
+A deep neural network contains multiple hidden layers.
+
+5. COMMON DEEP LEARNING ARCHITECTURES
+
+A. CNN - CONVOLUTIONAL NEURAL NETWORK
+
+CNNs are mainly used for image and computer vision tasks.
+
+Applications:
+
+* Image classification
+* Object detection
+* Face recognition
+* Medical image analysis
+
+B. RNN - RECURRENT NEURAL NETWORK
+
+RNNs are designed to process sequential data.
+
+Applications:
+
+* Time-series prediction
+* Text processing
+* Speech processing
+
+Examples of improved RNN architectures:
+
+* LSTM
+* GRU
+
+C. TRANSFORMERS
+
+Transformers are neural network architectures that are widely used for modern NLP and generative AI.
+
+They use an attention mechanism to understand relationships between different parts of the input.
+
+Applications:
+
+* Chatbots
+* Text generation
+* Translation
+* Summarization
+* Question answering
+* Code generation
+
+Examples:
+
+* GPT
+* BERT
+* T5
+* Gemini
+
+6. DIFFERENCE BETWEEN AI, ML AND DL
+
+AI:
+The broad field of creating intelligent machines.
+
+ML:
+A subset of AI where machines learn patterns from data.
+
+DL:
+A subset of ML that uses deep neural networks to learn complex patterns.
+
+Relationship:
+
+Artificial Intelligence
+|
++-- Machine Learning
+|
++-- Deep Learning
+
+7. GENERATIVE AI
+
+Generative AI is a type of AI that can create new content based on patterns learned from existing data.
+
+It can generate:
+
+* Text
+* Images
+* Audio
+* Video
+* Code
+
+Examples:
+
+* ChatGPT
+* Google Gemini
+* Image generation models
+* AI coding assistants
+
+Large Language Models (LLMs) are a major technology behind modern text-based Generative AI.
+
+8. NATURAL LANGUAGE PROCESSING (NLP)
+
+NLP is a field of AI that focuses on enabling computers to understand and work with human language.
+
+Applications:
+
+* Chatbots
+* Sentiment analysis
+* Text classification
+* Translation
+* Text summarization
+* Question answering
+* Speech recognition
+
+9. COMPUTER VISION
+
+Computer Vision is a field of AI that enables computers to understand images and videos.
+
+Applications:
+
+* Face recognition
+* Object detection
+* Medical imaging
+* Autonomous vehicles
+* Security systems
+* OCR
+
+10. AI DEVELOPMENT WORKFLOW
+
+A typical AI/ML project follows these steps:
+
+1. Define the problem
+
+2. Collect data
+
+3. Clean the data
+
+4. Explore the data
+
+5. Prepare features
+
+6. Split the dataset
+
+7. Select a model
+
+8. Train the model
+
+9. Evaluate the model
+
+10. Tune the model
+
+11. Deploy the model
+
+12. Monitor the model
+
+13. IMPORTANT PYTHON LIBRARIES
+
+NumPy:
+Used for numerical operations and arrays.
+
+Pandas:
+Used for data manipulation and analysis.
+
+Matplotlib:
+Used for data visualization.
+
+Scikit-learn:
+Used for traditional machine learning algorithms.
+
+XGBoost:
+Used for powerful gradient boosting models.
+
+TensorFlow:
+Used for machine learning and deep learning.
+
+PyTorch:
+Used for deep learning and AI research.
+
+Transformers:
+Used for pretrained transformer-based models and NLP tasks.
+
+LangChain:
+Used for building applications around language models.
+
+FastAPI:
+Used to create APIs for AI and ML applications.
+
+12. MODEL EVALUATION
+
+For classification problems, common metrics include:
+
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* ROC-AUC
+
+For regression problems, common metrics include:
+
+* MAE
+* MSE
+* RMSE
+* R-squared
+
+Model evaluation helps determine how well a machine learning model performs on unseen data.
+
+13. EXAMPLE OF AN ML PROJECT
+
+Used Car Price Prediction:
+
+Input:
+
+* Car brand
+* Car model
+* Year
+* Kilometers driven
+* Fuel type
+* Transmission
+* Engine capacity
+
+Process:
+Data Collection
+|
+Data Cleaning
+|
+Data Preprocessing
+|
+Feature Engineering
+|
+Model Training
+|
+Model Evaluation
+|
+Prediction
+|
+Deployment
+
+Output:
+Predicted used car price.
+
+14. AI VS ML VS DL
+
+AI:
+Goal: Build intelligent systems.
+
+ML:
+Goal: Learn patterns from data.
+
+DL:
+Goal: Learn complex patterns using neural networks.
+
+AI can work with rules, logic, machine learning, and other techniques.
+
+ML generally requires data and algorithms to learn patterns.
+
+DL generally requires larger datasets and more computational resources, although the exact requirements depend on the task and model.
+
+15. CAREER SKILLS FOR AI/ML
+
+Important skills to learn:
+
+Programming:
+
+* Python
+* SQL
+
+Mathematics:
+
+* Statistics
+* Probability
+* Linear Algebra
+* Basic Calculus
+
+Machine Learning:
+
+* Supervised Learning
+* Unsupervised Learning
+* Model Evaluation
+* Feature Engineering
+
+Deep Learning:
+
+* Neural Networks
+* CNN
+* RNN
+* LSTM
+* Transformers
+
+AI Engineering:
+
+* APIs
+* FastAPI
+* Git and GitHub
+* Docker
+* Cloud Deployment
+* Databases
+
+Modern AI:
+
+* Large Language Models
+* Prompt Engineering
+* RAG
+* Vector Databases
+* AI Agents
+* Generative AI
+
+16. SIMPLE SUMMARY
+
+AI = Making machines intelligent.
+
+ML = Machines learn from data.
+
+DL = Machines learn complex patterns using deep neural networks.
+
+Generative AI = AI that creates new content.
+
+NLP = AI for human language.
+
+Computer Vision = AI for images and videos.
+
+The overall relationship is:
+
+AI
+|
++---- Machine Learning
+|
++---- Deep Learning
+|
++---- Neural Networks
+|
++---- Transformers
+
+Learning Python, SQL, statistics, machine learning, deep learning, APIs, Git, Docker, and modern AI technologies provides a strong foundation for building real-world AI applications.

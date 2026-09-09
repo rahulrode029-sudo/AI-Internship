@@ -1,0 +1,1109 @@
+ AI Internship – Day 1 to Day 19
+
+About the Internship
+
+This repository contains my practical work, assignments, experiments, and projects completed during my AI Internship. The internship covers the fundamentals of Python, data analysis, machine learning, NLP, transformers, APIs, SQL, model deployment, LLMs, LangChain, RAG, vector databases, FastAPI, and AI agent development.
+
+The main objective of this internship is to develop practical knowledge by implementing concepts through hands-on projects rather than only studying theoretical concepts.
+
+Throughout the internship, I worked with Python, Machine Learning, Natural Language Processing, Hugging Face Transformers, Flask, FastAPI, SQL, Google Gemini, LangChain, ChromaDB, FAISS, LangGraph, embeddings, semantic search, and Retrieval-Augmented Generation.
+
+---
+
+
+# Day 1 – Python Fundamentals
+
+# Objective
+
+The first day focused on understanding the fundamentals of Python programming and preparing the programming environment for the internship.
+
+# Topics Covered
+
+* Python syntax
+* Variables and data types
+* Numbers and strings
+* Lists
+* Tuples
+* Sets
+* Dictionaries
+* Conditional statements
+* `if`, `elif`, and `else`
+* `for` and `while` loops
+* Functions
+* Basic input and output
+* Exception handling
+* Modules and packages
+
+## Practical Work
+
+I created small Python programs to understand basic programming logic and practiced working with different Python data structures.
+
+The main purpose of this day was to build a strong programming foundation that would be required for the Machine Learning and AI tasks later in the internship.
+
+---
+
+
+# Day 2 – Python Programming Practice
+
+## Objective
+
+The second day focused on improving Python programming skills through practical exercises.
+
+## Topics Covered
+
+* Functions
+* Lambda functions
+* List comprehensions
+* String operations
+* Dictionary operations
+* File handling
+* Exception handling
+* Modular programming
+* Basic problem solving
+
+## Practical Work
+
+Different Python exercises were implemented to improve logical thinking and programming skills.
+
+File handling was also practiced because reading and processing external data becomes important in Data Science, NLP, RAG, and AI applications.
+
+---
+
+
+
+# Day 3 – NumPy
+
+## Objective
+
+The objective of this day was to learn NumPy and understand how numerical data is processed in Python.
+
+## Topics Covered
+
+* NumPy arrays
+* Array creation
+* Array indexing
+* Array slicing
+* Array dimensions
+* Mathematical operations
+* Statistical operations
+* Reshaping arrays
+* Broadcasting
+* Mean, median, minimum, and maximum
+
+## Practical Work
+
+I worked with numerical datasets using NumPy arrays and practiced mathematical and statistical operations.
+
+NumPy is an important foundation for Machine Learning because many ML algorithms operate on numerical matrices and arrays.
+
+---
+
+
+
+# Day 4 – Pandas and Data Analysis
+
+## Objective
+
+The fourth day focused on data manipulation and analysis using Pandas.
+
+## Topics Covered
+
+* Series
+* DataFrames
+* Reading CSV files
+* Inspecting datasets
+* Selecting columns
+* Filtering rows
+* Sorting data
+* Handling missing values
+* Removing duplicates
+* GroupBy operations
+* Basic statistical analysis
+
+## Practical Work
+
+I loaded datasets using Pandas and performed data exploration and manipulation.
+
+The main goal was to understand how raw datasets can be prepared before applying Machine Learning algorithms.
+
+---
+
+
+
+# Day 5 – Data Visualization
+
+## Objective
+
+The objective was to understand how data can be visually analyzed.
+
+## Technologies
+
+* Matplotlib
+* Seaborn
+
+## Topics Covered
+
+* Line plots
+* Bar charts
+* Histograms
+* Scatter plots
+* Box plots
+* Correlation visualization
+* Distribution analysis
+
+## Practical Work
+
+I created different visualizations to understand patterns, distributions, relationships, and possible outliers in datasets.
+
+Data visualization is useful for understanding the dataset before building a Machine Learning model.
+
+---
+
+
+
+# Day 6 – Data Preprocessing, Regex and Seaborn
+
+## Objective
+
+This day focused on preparing data for Machine Learning and understanding regular expressions.
+
+## Topics Covered
+
+* Data preprocessing
+* Missing-value handling
+* Data cleaning
+* Feature preparation
+* Regular Expressions
+* Pattern matching
+* Text cleaning
+* Seaborn visualization
+
+## Practical Work
+
+I practiced using Regular Expressions to identify and manipulate text patterns.
+
+I also worked with Seaborn to visualize datasets and understand relationships between variables.
+
+---
+
+
+# Day 7 – Linear Regression
+
+## Objective
+
+The objective was to understand the fundamentals of supervised Machine Learning using Linear Regression.
+
+## Topics Covered
+
+* Supervised learning
+* Training and testing datasets
+* Features and target variables
+* Linear Regression
+* Model training
+* Prediction
+* Mean Squared Error
+* R² score
+
+## Practical Project
+
+### House Price Prediction
+
+A House Price Prediction project was developed using a dataset containing information such as:
+
+* Area
+* Bedrooms
+* Bathrooms
+* Floors
+* Year Built
+* Location
+* Condition
+* Garage
+* Price
+
+The model was trained to predict house prices based on available features.
+
+---
+
+# Day 8 – Classification Models
+
+## Objective
+
+The objective was to understand classification algorithms and how Machine Learning models predict categories.
+
+## Topics Covered
+
+* Classification
+* Training and testing
+* Feature engineering
+* Model evaluation
+* Accuracy
+* Confusion matrix
+* Classification reports
+
+## Algorithms Practiced
+
+* Logistic Regression
+* Decision Tree
+* Random Forest
+* Naive Bayes
+
+The goal was to understand the difference between regression and classification problems and learn how classification models are evaluated.
+
+---
+
+# Day 9 – NLP Preprocessing
+
+## Objective
+
+The objective was to understand Natural Language Processing and prepare text data for Machine Learning models.
+
+## Topics Covered
+
+* Natural Language Processing
+* Tokenization
+* Lowercasing
+* Stopword removal
+* Stemming
+* Lemmatization
+* Text cleaning
+* Vocabulary
+* Bag of Words
+* TF-IDF
+
+## Practical Work
+
+Text data was processed and converted into numerical representations that Machine Learning algorithms can understand.
+
+NLP preprocessing became the foundation for later work with Transformers and LLM applications.
+
+---
+
+# Day 10 – Transformers and Hugging Face
+
+## Objective
+
+The objective was to understand modern NLP models and use pretrained Transformer models.
+
+## Technologies
+
+* Hugging Face
+* Transformers
+* Python
+
+## Practical Project
+
+A sentiment-analysis application was created using a pretrained Transformer model.
+
+The model used was:
+
+`distilbert/distilbert-base-uncased-finetuned-sst-2-english`
+
+The application accepts text and predicts whether the sentiment is positive or negative.
+
+## Concepts Learned
+
+* Transformer architecture
+* Pretrained models
+* Hugging Face pipelines
+* Sentiment analysis
+* Model inference
+* NLP applications
+
+---
+
+
+# Day 11 – Flask and REST API
+
+## Objective
+
+The objective was to understand how Machine Learning models can be exposed through APIs.
+
+## Topics Covered
+
+* Flask
+* REST API
+* HTTP methods
+* GET requests
+* POST requests
+* JSON
+* Request handling
+* API responses
+* Connecting models to APIs
+
+## Practical Work
+
+A Flask-based API was developed to understand how an ML model can receive input through an HTTP request and return predictions.
+
+This introduced the concept of deploying Machine Learning functionality as a service.
+
+---
+
+
+
+# Day 12 – SQL and PostgreSQL
+
+## Objective
+
+The objective was to understand relational databases and SQL.
+
+## Topics Covered
+
+* SQL basics
+* PostgreSQL
+* Database creation
+* Tables
+* INSERT
+* SELECT
+* UPDATE
+* DELETE
+* WHERE
+* ORDER BY
+* GROUP BY
+* Aggregate functions
+* Basic database operations
+
+## Practical Work
+
+I practiced creating and querying databases using PostgreSQL.
+
+The goal was to understand how applications can store and retrieve structured information from databases.
+
+---
+
+
+
+# Day 13 – Model Serialization and Prediction API
+
+## Objective
+
+The objective was to learn how trained Machine Learning models can be saved and reused without retraining.
+
+## Technologies
+
+* Python
+* Joblib
+* Pickle
+* Flask/API
+
+## Topics Covered
+
+* Model serialization
+* Saving trained models
+* Loading models
+* Prediction APIs
+* Request/response handling
+
+## Practical Work
+
+A trained Machine Learning model was serialized and then loaded inside an API application.
+
+This demonstrated a basic Machine Learning deployment workflow:
+
+**Train Model → Save Model → Load Model → API → Prediction**
+
+---
+
+
+
+# Day 14 – LLM Basics and Prompt Engineering
+
+## Objective
+
+The objective was to understand Large Language Models and learn how prompts affect model responses.
+
+## Topics Covered
+
+* LLM fundamentals
+* Prompt engineering
+* Zero-shot prompting
+* Few-shot prompting
+* Structured prompts
+* Summarization
+* Information extraction
+* Text generation
+* Prompt improvement
+
+## Practical Tasks
+
+A Prompt Library was created and different prompts were tested and compared.
+
+Tasks included:
+
+* Summarization
+* Information extraction
+* Text generation
+* Prompt comparison
+* Prompt optimization
+
+The goal was to understand how better prompts can produce more useful and consistent LLM responses.
+
+---
+
+
+
+# Day 15 – LangChain Fundamentals
+
+## Objective
+
+The objective was to understand LangChain and build a basic AI Support Assistant.
+
+## Topics Covered
+
+* LangChain architecture
+* Prompt templates
+* Chains
+* Conversation memory
+* Output parsers
+* LLM integration
+
+## Practical Project
+
+### AI Support Assistant
+
+An AI Support Assistant was developed using LangChain.
+
+The application accepts a user's problem and generates a structured support response.
+
+The project demonstrated:
+
+* Prompt templates
+* Conversation memory
+* LLM calls
+* Structured output
+* Output parsing
+
+This introduced the concept of building applications around LLMs instead of directly interacting with an LLM.
+
+---
+
+
+
+# Day 16 – RAG, Embeddings and Vector Databases
+
+## Objective
+
+The objective was to understand Retrieval-Augmented Generation and how external documents can be connected to an LLM.
+
+## Topics Covered
+
+* Embeddings
+* Semantic search
+* Vector databases
+* ChromaDB
+* FAISS
+* Document loading
+* Text chunking
+* Retrieval
+* RAG pipeline
+
+## RAG Workflow
+
+The basic RAG pipeline implemented during the internship was:
+
+**Documents → Text Splitting → Embeddings → Vector Database → Retrieval → LLM → Answer**
+
+## Practical Work
+
+I worked with company documents and experimented with document chunk sizes.
+
+Different retrieval approaches were explored using ChromaDB and FAISS.
+
+The purpose was to improve the quality of LLM responses by providing relevant information from external documents.
+
+---
+
+
+
+# Day 17 – FastAPI RAG API
+
+## Objective
+
+The objective was to convert the RAG application into an API.
+
+## Technologies
+
+* FastAPI
+* LangChain
+* Gemini
+* ChromaDB
+* Embeddings
+* Python
+
+## Practical Project
+
+A FastAPI-based RAG application was developed.
+
+The API allows a user to:
+
+1. Provide a document.
+2. Process the document.
+3. Create embeddings.
+4. Store vectors.
+5. Ask a question.
+6. Retrieve relevant information.
+7. Generate an answer using an LLM.
+
+## API Concept
+
+The application follows:
+
+**User → FastAPI → Document Processing → Embeddings → ChromaDB → Retriever → Gemini → Answer**
+
+Robustness testing was also considered for:
+
+* Different document types
+* Empty files
+* Unsupported formats
+* Large documents
+* Invalid input
+
+---
+
+
+
+# Day 18 – AI Agent Architecture and Planning
+
+## Objective
+
+The objective was to understand how AI Agents work and how an agent can plan and execute tasks using tools.
+
+## Topics Covered
+
+* AI Agents
+* Agent workflow
+* Planning
+* Tool usage
+* Decision making
+* ReAct
+* Tool manager
+* Planning engine
+* Agent execution
+
+## AI Agent Architecture
+
+The architecture designed during this stage was:
+
+**User**
+
+↓
+
+**User Interface**
+
+↓
+
+**AI Research Agent**
+
+↓
+
+**Planning Engine + Tool Manager**
+
+↓
+
+**Tools / Knowledge Sources**
+
+↓
+
+**Final Response**
+
+## Agent Responsibilities
+
+The AI Agent can:
+
+* Understand a user request.
+* Break the request into smaller tasks.
+* Decide which tool should be used.
+* Retrieve required information.
+* Process the information.
+* Generate a final response.
+
+The purpose of this task was to understand the difference between a simple LLM application and an AI Agent capable of planning and using tools.
+
+---
+
+
+# Day 19 – LangGraph AI Research / RAG Agent
+
+## Objective
+
+Day 19 focuses on building a more structured AI application using LangGraph.
+
+The objective is to combine:
+
+* LangGraph
+* RAG
+* Retrieval
+* Embeddings
+* ChromaDB
+* Gemini
+* Memory
+* Agent workflow
+
+into a practical AI application.
+
+## Project
+
+### AI Research / Document Question Answering Agent
+
+The application allows users to ask questions about documents stored inside the `documents` folder.
+
+The system retrieves relevant document information and uses an LLM to generate an answer.
+
+## Architecture
+
+The workflow is:
+
+**User Question**
+
+↓
+
+**LangGraph**
+
+↓
+
+**Retriever**
+
+↓
+
+**Document Search**
+
+↓
+
+**Relevant Documents**
+
+↓
+
+**LLM**
+
+↓
+
+**Generated Answer**
+
+## Main Files
+
+### `app.py`
+
+The main entry point of the application.
+
+It accepts the user's question and invokes the LangGraph workflow.
+
+### `graph.py`
+
+Defines the LangGraph workflow and connects different processing nodes.
+
+### `retriever.py`
+
+Responsible for:
+
+* Loading documents
+* Splitting documents
+* Creating embeddings
+* Creating the vector database
+* Retrieving relevant documents
+
+### `llm.py`
+
+Responsible for connecting the application to Google Gemini.
+
+### `memory.py`
+
+Responsible for maintaining conversation-related information.
+
+### `state.py`
+
+Defines the state structure used by the LangGraph workflow.
+
+### `documents/`
+
+Contains the source documents used by the RAG system.
+
+---
+
+# Technologies Used
+
+The internship provided practical exposure to the following technologies:
+
+### Programming
+
+* Python
+
+### Data Science
+
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* Scikit-learn
+
+### Machine Learning
+
+* Linear Regression
+* Logistic Regression
+* Decision Trees
+* Random Forest
+* Naive Bayes
+
+### NLP
+
+* Regex
+* TF-IDF
+* Tokenization
+* Stemming
+* Lemmatization
+
+### Transformers
+
+* Hugging Face Transformers
+* Sentence Transformers
+* DistilBERT
+
+### APIs
+
+* Flask
+* FastAPI
+* REST APIs
+* Uvicorn
+
+### LLM
+
+* Google Gemini
+* Prompt Engineering
+* LLM Applications
+
+### LangChain
+
+* LangChain
+* Prompt Templates
+* Chains
+* Memory
+* Output Parsers
+* Document Loaders
+* Retrievers
+
+### RAG
+
+* Embeddings
+* Semantic Search
+* ChromaDB
+* FAISS
+* Retrieval-Augmented Generation
+
+### Agents
+
+* LangGraph
+* Agent workflows
+* Planning
+* Tool usage
+* State management
+
+### Databases
+
+* PostgreSQL
+* ChromaDB
+
+### Development Tools
+
+* VS Code
+* Jupyter Notebook
+* Git
+* GitHub
+* Python Virtual Environment
+
+---
+
+# Overall Learning Journey
+
+The internship followed a progressive learning path.
+
+Initially, I learned Python programming and data analysis.
+
+Then I moved into Machine Learning and implemented regression and classification models.
+
+After that, I learned Natural Language Processing and Transformers.
+
+The next stage focused on APIs and deployment concepts using Flask and FastAPI.
+
+I then moved into Large Language Models and prompt engineering.
+
+After understanding LLM fundamentals, I learned LangChain and developed an AI Support Assistant.
+
+The next stage introduced RAG, embeddings, vector databases, semantic search, and document-based question answering.
+
+Finally, I progressed toward AI Agents and LangGraph, where different components are connected into a structured workflow capable of retrieving information and generating responses.
+
+---
+
+# Overall AI Application Architecture
+
+The concepts learned throughout the internship can be combined into the following architecture:
+
+```text
+                    User
+                      |
+                      v
+               Application / API
+                      |
+                      v
+                 AI Workflow
+                      |
+          +-----------+-----------+
+          |                       |
+          v                       v
+       Retriever               LLM
+          |                       |
+          v                       v
+     Vector Database          Response
+          |
+          v
+      Documents
+```
+
+For an agent-based system:
+
+```text
+                    User
+                      |
+                      v
+                 AI Agent
+                      |
+              +-------+-------+
+              |               |
+              v               v
+          Planning         Tools
+              |               |
+              +-------+-------+
+                      |
+                      v
+                  Retriever
+                      |
+                      v
+                Vector Database
+                      |
+                      v
+                     LLM
+                      |
+                      v
+                Final Response
+```
+
+---
+
+# Key Projects Completed
+
+## 1. House Price Prediction
+
+A Machine Learning regression project for predicting house prices based on property features.
+
+## 2. Sentiment Analysis
+
+A Transformer-based NLP application using a pretrained Hugging Face model.
+
+## 3. ML Prediction API
+
+A Flask-based API for serving Machine Learning predictions.
+
+## 4. AI Support Assistant
+
+A LangChain-based assistant using prompts, memory, and structured outputs.
+
+## 5. RAG Application
+
+A document-based question-answering system using embeddings, ChromaDB, retrieval, and Gemini.
+
+## 6. FastAPI RAG API
+
+A REST API for uploading/processing documents and asking questions about their contents.
+
+## 7. AI Agent / LangGraph Application
+
+A structured AI workflow combining state, retrieval, memory, and LLM generation.
+
+---
+
+# GitHub Repository Structure
+
+The internship repository is organized by individual days:
+
+```text
+Ai-Internship/
+│
+├── Practice/
+│   ├── Day-01/
+│   ├── Day-02/
+│   ├── Day-03/
+│   ├── Day-04/
+│   ├── Day-05/
+│   ├── Day-06/
+│   ├── Day-07/
+│   ├── Day-08/
+│   ├── Day-09/
+│   ├── Day-10/
+│   ├── Day-11/
+│   ├── Day-12/
+│   ├── Day-13/
+│   ├── Day-14/
+│   ├── Day-15/
+│   ├── Day-16/
+│   ├── Day-17/
+│   ├── Day-18/
+│   └── Day-19/
+│
+└── README.md
+```
+
+Each day's folder contains the practical work, source code, datasets/documents where required, configuration files, and other supporting files.
+
+---
+
+# Environment Setup
+
+The projects are developed using Python and virtual environments.
+
+Example setup:
+
+```bash
+python -m venv venv
+```
+
+Activate the environment on Windows:
+
+```powershell
+venv\Scripts\activate
+```
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+For projects using Google Gemini, environment variables are stored in a `.env` file.
+
+Example:
+
+```env
+GOOGLE_API_KEY=your_google_api_key
+```
+
+The `.env` file should not be committed to GitHub.
+
+Add it to `.gitignore`:
+
+```text
+.env
+venv/
+__pycache__/
+*.pyc
+```
+
+---
+
+# Important Development Lessons
+
+During the internship, I also learned how to troubleshoot real development problems.
+
+Some of the important issues included:
+
+* Python interpreter mismatches
+* Virtual environment configuration
+* Missing Python packages
+* API key configuration
+* Gemini model availability
+* Embedding model compatibility
+* Document loading errors
+* PDF processing problems
+* Unicode encoding errors
+* LangChain version changes
+* Deprecated classes
+* Vector database configuration
+* Git and GitHub errors
+* API testing
+* RAG retrieval quality
+
+These issues helped me understand that real-world AI development requires not only writing code but also debugging dependencies, APIs, environments, and model configurations.
+
+---
+
+# Git and GitHub
+
+Git and GitHub were used throughout the internship to maintain project history and upload completed work.
+
+Common Git commands practiced include:
+
+```bash
+git status
+git add .
+git commit -m "Add Day-19 project"
+git push origin main
+```
+
+The repository is organized so that each internship day can be tracked separately.
+
+Sensitive files such as `.env` are excluded from version control.
+
+---
+
+# Final Outcome
+
+By completing Day 1 to Day 19, I progressed from basic Python programming to building modern AI applications.
+
+The learning progression can be summarized as:
+
+```text
+Python
+   ↓
+Data Analysis
+   ↓
+Machine Learning
+   ↓
+NLP
+   ↓
+Transformers
+   ↓
+REST APIs
+   ↓
+SQL
+   ↓
+Model Deployment
+   ↓
+LLMs
+   ↓
+Prompt Engineering
+   ↓
+LangChain
+   ↓
+RAG
+   ↓
+Embeddings
+   ↓
+Vector Databases
+   ↓
+FastAPI
+   ↓
+AI Agents
+   ↓
+LangGraph
+```
+
+This internship helped me understand the complete development workflow of AI applications, from preparing data and training models to building APIs, integrating LLMs, implementing RAG systems, and designing agent-based workflows.
+
+---
+
+# Conclusion
+
+The first 19 days of the AI Internship provided practical experience across Data Science, Machine Learning, NLP, Generative AI, APIs, RAG, and AI Agents.
+
+The projects completed during this period demonstrate the ability to work with both traditional Machine Learning and modern Generative AI technologies.
+
+The most important learning outcome was understanding how individual technologies can be combined to create complete AI applications.
+
+The internship work will continue to build on these concepts by focusing on more advanced AI agents, tool usage, automation, deployment, evaluation, and real-world AI application development.
+
+---
+
+## Author
+
+**Rahul Rode**
+
+AI / Machine Learning Internship
+
+Technologies: Python • Machine Learning • NLP • LLM • LangChain • RAG • FastAPI • ChromaDB • LangGraph • Git/GitHub
